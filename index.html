@@ -8,24 +8,36 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Banana Talk</h1>
+    <nav>
+      <div class="header">Banana Talk</div>
+    </nav>
 
-    <textarea
-      name="input-translator"
-      id="inputArea"
-      cols="30"
-      rows="10"
-      placeholder="Enter the text which you want to convert to banana language"
-    ></textarea>
+    <div class="container">
+      <textarea
+        name="input-translator"
+        id="inputArea"
+        placeholder="Enter the text which you want to convert to banana language"
+        class="no-inline input-area"
+      ></textarea>
 
-    <button id="btn-translate">Translate</button>
+      <button id="btn-translate" class="no-inline">Translate to banana</button>
 
-    <textarea
-      name="output-translator"
-      id="outputArea"
-      cols="30"
-      rows="10"
-    ></textarea>
+      <textarea
+        name="output-translator"
+        id="outputArea"
+        class="no-inline output-area"
+        placeholder="Translation will appear here."
+      ></textarea>
+    </div>
+
+    <footer>
+      <div class="footer-heading">About</div>
+      <p class="footer-para">
+        Are you a fan of minions? Did you know that the gibberish they say is an
+        actual language. Use the translator to convert your text from English to
+        Minion speak or Banana language.
+      </p>
+    </footer>
 
     <script src="app.js"></script>
   </body>
