@@ -11,7 +11,7 @@ body {
 
 nav {
   text-align: center;
-  /* background-color: var(--primary-color); */
+  background-color: var(--primary-color);
 }
 
 .header {
