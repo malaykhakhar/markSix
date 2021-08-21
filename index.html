@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Talk</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="app.js"></script>
   </head>
   <body>
     <h1>Banana Talk</h1>
 
-    <textarea name="translator" id="input" cols="30" rows="10"></textarea>
+    <textarea
+      name="input-translator"
+      id="inputArea"
+      cols="30"
+      rows="10"
+      placeholder="Enter the text which you want to convert to banana language"
+    ></textarea>
+
+    <button id="btn-translate">Translate</button>
+
+    <textarea
+      name="output-translator"
+      id="outputArea"
+      cols="30"
+      rows="10"
+    ></textarea>
+
+    <script src="app.js"></script>
   </body>
 </html>
