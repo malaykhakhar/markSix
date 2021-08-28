@@ -7,6 +7,8 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  background-image: url("/images/minion.jpg");
+  background-size: 100vw 100vh;
 }
 
 nav {
@@ -35,15 +37,24 @@ nav {
   margin-top: 3rem;
   font-family: inherit;
   font-size: large;
+  background-color: #f3f4f6;
 }
 
 button {
-  margin: 2rem 0rem;
+  margin: 2rem auto;
   font-family: inherit;
   font-size: large;
   background-color: var(--primary-color);
   border: none;
   padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--primary-color);
+  border: 3px solid var(--primary-color);
 }
 
 .output-area {
@@ -52,6 +63,7 @@ button {
   overflow: scroll;
   font-family: inherit;
   font-size: large;
+  background-color: #f3f4f6;
 }
 
 footer {
